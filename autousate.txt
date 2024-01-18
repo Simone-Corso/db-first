@@ -1,0 +1,13 @@
+id - intero - MEDIUMINT - PRIMARY KEY UNIQUE AUTO_INCREMENT - NOT NULL
+marca - stringa - VARCHAR(50) - NOT NULL
+modello - stringa - VARCHAR(50) - NOT NULL
+anno_produzione - YEAR - NOT NULL
+colore - stringa - VARCHAR(30) - NULL
+chilometraggio - intero - MEDIUMINT - NOT NULL
+tipo_carburante - stringa - VARCHAR(20) - NULL
+prezzo - float - FLOAT(9, 2) - NOT NULL
+data_inserimento - data - DATE - NOT NULL
+venduta - booleano - BOOLEAN (TINYINT) - NOT NULL DEFAULT(FALSE)
+descrizione - stringa - TEXT - NULL
+immagine - stringa - VARCHAR(255) - NULL
+concessionario - stringa - VARCHAR(100) - NULL
